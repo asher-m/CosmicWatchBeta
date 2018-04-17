@@ -57,8 +57,15 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -71,6 +78,81 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -105,18 +187,6 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
-<package name="SML0805" urn="urn:adsk.eagle:footprint:15683/1" locally_modified="yes">
-<description>&lt;b&gt;SML0805-2CW-TR (0805 PROFILE)&lt;/b&gt; COOL WHITE&lt;p&gt;
-Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
-<wire x1="-0.95" y1="-0.55" x2="0.95" y2="-0.55" width="0.1016" layer="51"/>
-<wire x1="0.95" y1="-0.55" x2="0.95" y2="0.55" width="0.1016" layer="51"/>
-<wire x1="0.95" y1="0.55" x2="-0.95" y2="0.55" width="0.1016" layer="51"/>
-<wire x1="-0.95" y1="0.55" x2="-0.95" y2="-0.55" width="0.1016" layer="51"/>
-<smd name="C" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.5" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.5" y="-2" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="MAX4104">
@@ -135,22 +205,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <text x="2.54" y="2.54" size="1.27" layer="95">&gt;Name</text>
 <text x="2.54" y="-17.78" size="1.27" layer="96">&gt;Value</text>
 </symbol>
-<symbol name="SCH_D1">
-<pin name="OUT" x="7.62" y="1.27" visible="pad" length="middle" direction="out" rot="R180"/>
-<pin name="IN" x="-5.08" y="1.27" visible="pad" length="middle" direction="in"/>
-<text x="-1.778" y="3.048" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.032" y="-1.778" size="1.27" layer="96">&gt;VALUE</text>
-<polygon width="0.254" layer="94">
-<vertex x="0" y="0"/>
-<vertex x="0" y="2.54"/>
-<vertex x="2.54" y="1.27"/>
-</polygon>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="3.048" y2="2.54" width="0.254" layer="94"/>
-<wire x1="3.048" y1="2.54" x2="3.048" y2="2.286" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.254" layer="94"/>
-<wire x1="2.032" y1="0" x2="2.032" y2="0.254" width="0.254" layer="94"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX4104" prefix="MAX" uservalue="yes">
@@ -168,22 +222,6 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0093.pdf</description>
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="VCC" pad="7"/>
 <connect gate="G$1" pin="VEE" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SCH_D1" prefix="SCH" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="SCH_D1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SML0805">
-<connects>
-<connect gate="G$1" pin="IN" pad="A"/>
-<connect gate="G$1" pin="OUT" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7908,80 +7946,148 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-coax" urn="urn:adsk.eagle:library:133">
-<description>&lt;b&gt;Coax Connectors&lt;/b&gt;&lt;p&gt;
-Radiall  and M/A COM.&lt;p&gt;
+<library name="SparkFun-Retired">
+<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
+In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SMA-EDGE">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
+This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
+<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="SIG" x="2.54" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
+<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SMA_EDGE">
+<wire x1="0" y1="-2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short"/>
+<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
+<pin name="GND@2" x="-2.54" y="-10.16" visible="off" length="short"/>
+<pin name="GND@3" x="-2.54" y="-12.7" visible="off" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SMA_EDGE" prefix="J$">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;
+End launch SMA connector. The paste layer has been removed so that the connector can be hand soldered onto the board after reflow.</description>
+<gates>
+<gate name="1" symbol="SMA_EDGE" x="-2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
+<connects>
+<connect gate="1" pin="GND@0" pad="GND@0"/>
+<connect gate="1" pin="GND@1" pad="GND@1"/>
+<connect gate="1" pin="GND@2" pad="GND@2"/>
+<connect gate="1" pin="GND@3" pad="GND@3"/>
+<connect gate="1" pin="SIGNAL" pad="SIG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="diode" urn="urn:adsk.eagle:library:210">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="LTI-SASF54GT" urn="urn:adsk.eagle:footprint:6195/1" library_version="1">
-<description>&lt;b&gt;SMA vertical PCB thrue hole jack&lt;/b&gt;&lt;p&gt;
-Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
-<wire x1="-1.1" y1="3.075" x2="1.1" y2="3.075" width="0.2032" layer="21"/>
-<wire x1="3.075" y1="1.1" x2="3.075" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="-3.075" x2="-1.1" y2="-3.075" width="0.2032" layer="21"/>
-<wire x1="-3.075" y1="-1.1" x2="-3.075" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="-3.0749" y1="3.0749" x2="3.075" y2="3.075" width="0.2032" layer="51"/>
-<wire x1="3.075" y1="3.075" x2="3.0749" y2="-3.0749" width="0.2032" layer="51"/>
-<wire x1="3.0749" y1="-3.0749" x2="-3.075" y2="-3.075" width="0.2032" layer="51"/>
-<wire x1="-3.075" y1="-3.075" x2="-3.0749" y2="3.0749" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="3.0501" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.5" diameter="2.2"/>
-<pad name="2" x="-2.54" y="2.54" drill="1.5" diameter="2.2"/>
-<pad name="3" x="2.54" y="2.54" drill="1.5" diameter="2.2"/>
-<pad name="4" x="2.54" y="-2.54" drill="1.5" diameter="2.2"/>
-<pad name="5" x="-2.54" y="-2.54" drill="1.5" diameter="2.2"/>
-<text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+<package name="SOD-123_MINI-SMA" urn="urn:adsk.eagle:footprint:43241/1" library_version="2">
+<description>&lt;b&gt;Molded plasitc,JEDEC SOD-123/Mini SMA&lt;/b&gt;&lt;p&gt;
+Source: Comchip CGRM4001-G.pdf</description>
+<wire x1="-1.8725" y1="0.835" x2="1.8725" y2="0.835" width="0.127" layer="51"/>
+<wire x1="-1.8725" y1="-0.835" x2="1.8725" y2="-0.835" width="0.127" layer="51"/>
+<wire x1="-0.3175" y1="0" x2="0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="-0.4763" x2="0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0.4763" x2="-0.3175" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.3175" y2="-0.4763" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.3175" y2="0.4763" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="0" x2="0.5613" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3175" y1="0" x2="-0.5613" y2="0" width="0.127" layer="21"/>
+<smd name="A" x="1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
+<smd name="C" x="-1.8" y="0" dx="1.5" dy="2.1" layer="1" rot="R180"/>
+<text x="-3.048" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.95" y1="-0.9" x2="-1.5875" y2="0.9" layer="51"/>
+<rectangle x1="1.5875" y1="-0.9" x2="1.95" y2="0.9" layer="51"/>
+<rectangle x1="-1.0249" y1="-0.9" x2="-0.6625" y2="0.9" layer="51"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="LTI-SASF54GT" urn="urn:adsk.eagle:package:6232/1" type="box" library_version="1">
-<description>SMA vertical PCB thrue hole jack
-Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
+<package3d name="SOD-123_MINI-SMA" urn="urn:adsk.eagle:package:43457/2" type="model" library_version="2">
+<description>Molded plasitc,JEDEC SOD-123/Mini SMA
+Source: Comchip CGRM4001-G.pdf</description>
 <packageinstances>
-<packageinstance name="LTI-SASF54GT"/>
+<packageinstance name="SOD-123_MINI-SMA"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="BU-BNC" urn="urn:adsk.eagle:symbol:6169/1" library_version="1">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0.254" x2="-0.762" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.254" x2="-0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.254" x2="-2.54" y2="-0.254" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+<symbol name="D" urn="urn:adsk.eagle:symbol:43091/1" library_version="2">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LTI-SASF54GT" urn="urn:adsk.eagle:component:6245/1" prefix="X" library_version="1">
-<description>&lt;b&gt;SMA vertical PCB thrue hole jack&lt;/b&gt;&lt;p&gt;
-Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
+<deviceset name="CGRM400*-G" urn="urn:adsk.eagle:component:43661/2" prefix="D" library_version="2">
+<description>&lt;b&gt;Molded plasitc,JEDEC SOD-123/Mini SMA&lt;/b&gt;&lt;p&gt;
+Source: Comchip CGRM4001-G.pdf</description>
 <gates>
-<gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
+<gate name="G$1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LTI-SASF54GT">
+<device name="" package="SOD-123_MINI-SMA">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2 3 4 5"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6232/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43457/2"/>
 </package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name="1"/>
+<technology name="2"/>
+<technology name="3"/>
+<technology name="4"/>
+<technology name="5"/>
+<technology name="6"/>
+<technology name="7"/>
 </technologies>
 </device>
 </devices>
@@ -7998,31 +8104,34 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="MAX4104_1" library="000phys605parts" deviceset="MAX4104" device=""/>
+<part name="MAX4104_1" library="000phys605parts" deviceset="MAX4104" device="" value="Amplifier"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="300"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="5pF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="SUP" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
-<part name="MAX4104_2" library="000phys605parts" deviceset="MAX4104" device=""/>
+<part name="MAX4104_2" library="000phys605parts" deviceset="MAX4104" device="" value="Peak Detector"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
-<part name="D1" library="000phys605parts" deviceset="SCH_D1" device=""/>
-<part name="D2" library="000phys605parts" deviceset="SCH_D1" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="IN" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="LTI-SASF54GT" device="" package3d_urn="urn:adsk.eagle:package:6232/1"/>
-<part name="OUT" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="LTI-SASF54GT" device="" package3d_urn="urn:adsk.eagle:package:6232/1"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
+<part name="OUT" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
+<part name="IN" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="MAX4104_1" gate="G$1" x="63.5" y="58.42"/>
+<instance part="MAX4104_1" gate="G$1" x="63.5" y="58.42" smashed="yes">
+<attribute name="NAME" x="65.278" y="58.928" size="1.27" layer="95"/>
+<attribute name="VALUE" x="66.294" y="43.688" size="1.27" layer="96"/>
+</instance>
 <instance part="R1" gate="G$1" x="68.58" y="40.64" smashed="yes">
 <attribute name="NAME" x="62.484" y="40.6146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="62.484" y="38.354" size="1.778" layer="96"/>
@@ -8040,7 +8149,10 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <instance part="SUP" gate="-2" x="109.22" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="109.982" y="71.12" size="1.524" layer="95" rot="R90"/>
 </instance>
-<instance part="MAX4104_2" gate="G$1" x="121.92" y="58.42"/>
+<instance part="MAX4104_2" gate="G$1" x="121.92" y="58.42" smashed="yes">
+<attribute name="NAME" x="123.698" y="58.928" size="1.27" layer="95"/>
+<attribute name="VALUE" x="123.19" y="43.688" size="1.27" layer="96"/>
+</instance>
 <instance part="C4" gate="G$1" x="149.86" y="58.42"/>
 <instance part="C5" gate="G$1" x="160.02" y="58.42"/>
 <instance part="GND2" gate="1" x="109.22" y="17.78"/>
@@ -8052,15 +8164,14 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <attribute name="NAME" x="114.2746" y="36.576" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="112.014" y="36.576" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="D1" gate="G$1" x="127" y="36.83"/>
-<instance part="D2" gate="G$1" x="170.18" y="49.53"/>
 <instance part="C6" gate="G$1" x="160.02" y="30.48"/>
-<instance part="IN" gate="G$1" x="43.18" y="50.8" smashed="yes">
-<attribute name="NAME" x="40.64" y="54.102" size="1.778" layer="95"/>
+<instance part="OUT" gate="1" x="200.66" y="50.8" rot="R180"/>
+<instance part="IN" gate="1" x="40.64" y="50.8"/>
+<instance part="D1" gate="G$1" x="127" y="38.1" smashed="yes">
+<attribute name="NAME" x="129.54" y="38.5826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="134.62" y="38.3286" size="1.778" layer="96"/>
 </instance>
-<instance part="OUT" gate="G$1" x="185.42" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="187.96" y="47.498" size="1.778" layer="95" rot="R180"/>
-</instance>
+<instance part="D2" gate="G$1" x="172.72" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -8138,42 +8249,66 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <junction x="154.94" y="22.86"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="22.86" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="IN" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="48.26"/>
-<pinref part="OUT" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="53.34" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="22.86" x2="160.02" y2="22.86" width="0.1524" layer="91"/>
 <junction x="160.02" y="22.86"/>
+<wire x1="45.72" y1="48.26" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IN" gate="1" pin="GND@3"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="IN" gate="1" pin="GND@2"/>
+<wire x1="38.1" y1="38.1" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+<junction x="38.1" y="38.1"/>
+<pinref part="IN" gate="1" pin="GND@1"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<junction x="38.1" y="40.64"/>
+<pinref part="IN" gate="1" pin="GND@0"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<junction x="38.1" y="43.18"/>
+<wire x1="182.88" y1="53.34" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="OUT" gate="1" pin="GND@0"/>
+<pinref part="OUT" gate="1" pin="GND@1"/>
+<pinref part="OUT" gate="1" pin="GND@2"/>
+<pinref part="OUT" gate="1" pin="GND@3"/>
+<wire x1="203.2" y1="63.5" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<junction x="203.2" y="60.96"/>
+<wire x1="203.2" y1="60.96" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<junction x="203.2" y="58.42"/>
+<wire x1="203.2" y1="58.42" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="66.04" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="203.2" y="63.5"/>
 </segment>
 </net>
 <net name="DIG_READOUT" class="0">
 <segment>
 <wire x1="180.34" y1="35.56" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="OUT"/>
-<wire x1="180.34" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="35.56" x2="180.34" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="33.02" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
 <junction x="160.02" y="35.56"/>
-<wire x1="180.34" y1="50.8" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <junction x="180.34" y="50.8"/>
-<pinref part="OUT" gate="G$1" pin="1"/>
+<pinref part="OUT" gate="1" pin="SIGNAL"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="175.26" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT_2" class="0">
 <segment>
-<wire x1="134.62" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="38.1" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="MAX4104_2" gate="G$1" pin="OUT"/>
 <wire x1="144.78" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="50.8" x2="165.1" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
 <junction x="144.78" y="50.8"/>
-<pinref part="D2" gate="G$1" pin="IN"/>
-<pinref part="D1" gate="G$1" pin="OUT"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="IN-_2" class="0">
@@ -8188,7 +8323,8 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <junction x="114.3" y="38.1"/>
 <pinref part="MAX4104_2" gate="G$1" pin="IN-"/>
 <wire x1="114.3" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="IN"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <junction x="121.92" y="38.1"/>
 </segment>
 </net>
@@ -8226,8 +8362,8 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <net name="IN" class="0">
 <segment>
 <pinref part="MAX4104_1" gate="G$1" pin="IN+"/>
-<pinref part="IN" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="IN" gate="1" pin="SIGNAL"/>
 </segment>
 </net>
 </nets>

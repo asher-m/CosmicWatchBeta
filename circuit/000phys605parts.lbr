@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -211,58 +211,58 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
 <package name="FC-600XX-SMT">
-<smd name="P_AN" x="0" y="0" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="0" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="5.85" y="0" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="5.85" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<polygon width="0.05" layer="39">
-<vertex x="0" y="1.55"/>
-<vertex x="0" y="4.45"/>
-<vertex x="1.55" y="4.45"/>
-<vertex x="1.55" y="5.85"/>
-<vertex x="4.45" y="5.85"/>
-<vertex x="4.45" y="4.3"/>
-<vertex x="5.85" y="4.3"/>
-<vertex x="5.85" y="1.4"/>
-<vertex x="4.3" y="1.4"/>
-<vertex x="4.3" y="0"/>
-<vertex x="1.4" y="0"/>
-<vertex x="1.4" y="1.55"/>
+<smd name="P_AN" x="-2.9" y="-2.94" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-2.9" y="2.91" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="2.95" y="-2.94" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="2.95" y="2.91" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.05" layer="41">
+<vertex x="-2.9" y="-1.39"/>
+<vertex x="-2.9" y="1.51"/>
+<vertex x="-1.35" y="1.51"/>
+<vertex x="-1.35" y="2.91"/>
+<vertex x="1.55" y="2.91"/>
+<vertex x="1.55" y="1.36"/>
+<vertex x="2.95" y="1.36"/>
+<vertex x="2.95" y="-1.54"/>
+<vertex x="1.4" y="-1.54"/>
+<vertex x="1.4" y="-2.94"/>
+<vertex x="-1.5" y="-2.94"/>
+<vertex x="-1.5" y="-1.39"/>
 </polygon>
-<circle x="-0.15" y="-0.4" radius="0.070709375" width="0" layer="21"/>
-<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="6.925" width="0.127" layer="21"/>
-<wire x1="-1.075" y1="6.925" x2="6.925" y2="6.925" width="0.127" layer="21"/>
-<wire x1="6.925" y1="6.925" x2="6.925" y2="-1.075" width="0.127" layer="21"/>
-<wire x1="6.925" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="21"/>
-<text x="0" y="7.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.5" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-3.05" y="-3.34" radius="0.070709375" width="0" layer="21"/>
+<wire x1="-3.975" y1="-4.015" x2="-3.975" y2="3.985" width="0.127" layer="21"/>
+<wire x1="-3.975" y1="3.985" x2="4.025" y2="3.985" width="0.127" layer="21"/>
+<wire x1="4.025" y1="3.985" x2="4.025" y2="-4.015" width="0.127" layer="21"/>
+<wire x1="4.025" y1="-4.015" x2="-3.975" y2="-4.015" width="0.127" layer="21"/>
+<text x="-2.9" y="4.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.4" y="-5.44" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="FC-600XX-SMT_HAND">
-<smd name="P_AN" x="0" y="-0.45" dx="2" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="-0.45" y="5.85" dx="2" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="6.3" y="0" dx="2" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="5.85" y="6.3" dx="2" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<polygon width="0.05" layer="39">
-<vertex x="0" y="1.55"/>
-<vertex x="0" y="4.45"/>
-<vertex x="1.55" y="4.45"/>
-<vertex x="1.55" y="5.85"/>
-<vertex x="4.45" y="5.85"/>
-<vertex x="4.45" y="4.3"/>
-<vertex x="5.85" y="4.3"/>
-<vertex x="5.85" y="1.4"/>
-<vertex x="4.3" y="1.4"/>
-<vertex x="4.3" y="0"/>
-<vertex x="1.4" y="0"/>
-<vertex x="1.4" y="1.55"/>
+<smd name="P_AN" x="-3.921" y="-3.498" dx="2" dy="2.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-3.371" y="3.802" dx="2" dy="2.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="3.379" y="-4.048" dx="2" dy="2.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="3.929" y="3.252" dx="2" dy="2.6" layer="1" roundness="20" rot="R90"/>
+<polygon width="0.05" layer="41">
+<vertex x="-2.921" y="-1.498"/>
+<vertex x="-2.921" y="1.402"/>
+<vertex x="-1.371" y="1.402"/>
+<vertex x="-1.371" y="2.802"/>
+<vertex x="1.529" y="2.802"/>
+<vertex x="1.529" y="1.252"/>
+<vertex x="2.929" y="1.252"/>
+<vertex x="2.929" y="-1.648"/>
+<vertex x="1.379" y="-1.648"/>
+<vertex x="1.379" y="-3.048"/>
+<vertex x="-1.521" y="-3.048"/>
+<vertex x="-1.521" y="-1.498"/>
 </polygon>
-<circle x="-0.15" y="-1.289" radius="0.070709375" width="0" layer="21"/>
-<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="6.925" width="0.127" layer="21"/>
-<wire x1="-1.075" y1="6.925" x2="6.925" y2="6.925" width="0.127" layer="21"/>
-<wire x1="6.925" y1="6.925" x2="6.925" y2="-1.075" width="0.127" layer="21"/>
-<wire x1="6.925" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="21"/>
-<text x="-1.27" y="7.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="0.77" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-4.971" y="-4.237" radius="0.070709375" width="0" layer="21"/>
+<wire x1="-3.996" y1="-4.123" x2="-3.996" y2="3.877" width="0.127" layer="21"/>
+<wire x1="-3.996" y1="3.877" x2="4.004" y2="3.877" width="0.127" layer="21"/>
+<wire x1="4.004" y1="3.877" x2="4.004" y2="-4.123" width="0.127" layer="21"/>
+<wire x1="4.004" y1="-4.123" x2="-3.996" y2="-4.123" width="0.127" layer="21"/>
+<text x="-2.091" y="4.552" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.801" y="-5.998" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

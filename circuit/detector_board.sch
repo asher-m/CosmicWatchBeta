@@ -8066,7 +8066,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 </library>
 <library name="000phys605parts">
 <packages>
-<package name="FC-600XX-SMT">
+<package name="FC-600XX-SMT_KEEPOUT">
 <smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
 <smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
 <smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
@@ -8097,6 +8097,39 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.0508" layer="39"/>
 <wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.0508" layer="39"/>
 </package>
+<package name="FC-600XX-SMT_BLANK5">
+<smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<circle x="-4.25" y="-4.25" radius="0.6096" width="0" layer="21"/>
+<text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="3.7" x2="3.7" y2="3.7" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="3.7" x2="3.7" y2="-3.7" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="-3.7" x2="-3.7" y2="-3.7" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-3.7" x2="-3.7" y2="3.7" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="3.4" x2="-2.2" y2="3.4" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="3.4" x2="-2.2" y2="2.45" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="2.45" x2="-3.65" y2="2.45" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="2.45" x2="-3.65" y2="3.4" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="3.65" x2="2.45" y2="3.65" width="0.0508" layer="39"/>
+<wire x1="2.45" y1="3.65" x2="2.45" y2="2.2" width="0.0508" layer="39"/>
+<wire x1="2.45" y1="2.2" x2="3.4" y2="2.2" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="2.2" x2="3.4" y2="3.65" width="0.0508" layer="39"/>
+<wire x1="-2.45" y1="-3.65" x2="-2.45" y2="-2.2" width="0.0508" layer="39"/>
+<wire x1="-2.45" y1="-2.2" x2="-3.4" y2="-2.2" width="0.0508" layer="39"/>
+<wire x1="-3.4" y1="-2.2" x2="-3.4" y2="-3.65" width="0.0508" layer="39"/>
+<wire x1="-3.4" y1="-3.65" x2="-2.45" y2="-3.65" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-2.45" x2="3.65" y2="-2.45" width="0.0508" layer="39"/>
+<wire x1="3.65" y1="-2.45" x2="3.65" y2="-3.4" width="0.0508" layer="39"/>
+<wire x1="3.65" y1="-3.4" x2="2.2" y2="-3.4" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-3.4" x2="2.2" y2="-2.45" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FC-600XX">
@@ -8113,12 +8146,12 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FC-600XX">
+<deviceset name="FC-600XX" prefix="FC-600XX-">
 <gates>
 <gate name="FC-60035" symbol="FC-600XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FC-600XX-SMT">
+<device name="" package="FC-600XX-SMT_KEEPOUT">
 <connects>
 <connect gate="FC-60035" pin="1" pad="P_AN"/>
 <connect gate="FC-60035" pin="2" pad="F_FAST"/>
@@ -8126,7 +8159,18 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <connect gate="FC-60035" pin="4" pad="NC"/>
 </connects>
 <technologies>
-<technology name="SMT_REFLOW"/>
+<technology name="KEEPOUT"/>
+</technologies>
+</device>
+<device name="BLANK" package="FC-600XX-SMT_BLANK5">
+<connects>
+<connect gate="FC-60035" pin="1" pad="P_AN"/>
+<connect gate="FC-60035" pin="2" pad="F_FAST"/>
+<connect gate="FC-60035" pin="3" pad="N_CATH"/>
+<connect gate="FC-60035" pin="4" pad="NC"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8142,7 +8186,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <class number="0" name="default" width="0.3048" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="high_freq" width="0.184303125" drill="0">
+<class number="1" name="high_freq" width="3.021" drill="0">
 <clearance class="0" value="0.508"/>
 <clearance class="1" value="0.508"/>
 </class>
@@ -8158,7 +8202,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="J$1" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
 <part name="SRC" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value=""/>
-<part name="FC-60035" library="000phys605parts" deviceset="FC-600XX" device="" technology="SMT_REFLOW"/>
+<part name="FC-600XX-1" library="000phys605parts" deviceset="FC-600XX" device="BLANK"/>
 </parts>
 <sheets>
 <sheet>
@@ -8176,7 +8220,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <instance part="J$1" gate="1" x="5.08" y="-17.78"/>
 <instance part="SRC" gate="-1" x="-48.26" y="-5.08" rot="R180"/>
 <instance part="SRC" gate="-2" x="-5.08" y="-33.02" rot="R180"/>
-<instance part="FC-60035" gate="FC-60035" x="22.86" y="-5.08" smashed="yes">
+<instance part="FC-600XX-1" gate="FC-60035" x="22.86" y="-5.08" smashed="yes">
 <attribute name="NAME" x="21.082" y="-2.032" size="1.778" layer="95"/>
 </instance>
 </instances>
@@ -8214,7 +8258,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="38.1" y1="0" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <label x="5.08" y="0" size="1.778" layer="95"/>
-<pinref part="FC-60035" gate="FC-60035" pin="3"/>
+<pinref part="FC-600XX-1" gate="FC-60035" pin="3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8259,10 +8303,12 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pinref part="SRC" gate="-2" pin="S"/>
 <wire x1="-2.54" y1="-33.02" x2="0" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="0" y="-33.02"/>
-<wire x1="12.7" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-33.02" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="FC-60035" gate="FC-60035" pin="2"/>
-<wire x1="38.1" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-10.16" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="FC-600XX-1" gate="FC-60035" pin="4"/>
 </segment>
 </net>
 <net name="V_AN" class="1">
@@ -8275,7 +8321,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="12.7" y="-17.78"/>
 <label x="12.7" y="-15.24" size="1.778" layer="95" rot="R90"/>
-<pinref part="FC-60035" gate="FC-60035" pin="1"/>
+<pinref part="FC-600XX-1" gate="FC-60035" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">

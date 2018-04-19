@@ -8103,7 +8103,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <class number="0" name="default" width="0.3048" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
-<class number="1" name="high_freq" width="0.184303125" drill="0">
+<class number="1" name="high_freq" width="3.021" drill="0">
 <clearance class="0" value="0.508"/>
 <clearance class="1" value="0.508"/>
 </class>
@@ -8123,10 +8123,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
-<part name="OUT" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
 <part name="IN" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
+<part name="SUP1" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -8170,18 +8170,23 @@ Source: Comchip CGRM4001-G.pdf</description>
 <attribute name="VALUE" x="112.014" y="36.576" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C6" gate="G$1" x="160.02" y="30.48"/>
-<instance part="OUT" gate="1" x="200.66" y="50.8" rot="R180"/>
 <instance part="IN" gate="1" x="40.64" y="50.8"/>
 <instance part="D1" gate="G$1" x="127" y="38.1" smashed="yes">
 <attribute name="NAME" x="129.54" y="38.5826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.62" y="38.3286" size="1.778" layer="96"/>
 </instance>
 <instance part="D2" gate="G$1" x="172.72" y="50.8"/>
+<instance part="SUP1" gate="-1" x="198.12" y="50.8" smashed="yes">
+<attribute name="NAME" x="200.66" y="50.038" size="1.524" layer="95"/>
+</instance>
+<instance part="SUP1" gate="-2" x="198.12" y="43.18" smashed="yes">
+<attribute name="NAME" x="200.66" y="42.418" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="AMP" class="1">
+<net name="AMP" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -8196,7 +8201,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="83.82" y="50.8"/>
 </segment>
 </net>
-<net name="IN-_1" class="1">
+<net name="IN-_1" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
@@ -8256,9 +8261,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="160.02" y1="22.86" x2="160.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="48.26"/>
-<wire x1="182.88" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="53.34" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="22.86" x2="160.02" y2="22.86" width="0.1524" layer="91"/>
 <junction x="160.02" y="22.86"/>
 <wire x1="45.72" y1="48.26" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
@@ -8273,22 +8275,13 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="IN" gate="1" pin="GND@0"/>
 <wire x1="38.1" y1="43.18" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
 <junction x="38.1" y="43.18"/>
-<wire x1="182.88" y1="53.34" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="OUT" gate="1" pin="GND@0"/>
-<pinref part="OUT" gate="1" pin="GND@1"/>
-<pinref part="OUT" gate="1" pin="GND@2"/>
-<pinref part="OUT" gate="1" pin="GND@3"/>
-<wire x1="203.2" y1="63.5" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<junction x="203.2" y="60.96"/>
-<wire x1="203.2" y1="60.96" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
-<junction x="203.2" y="58.42"/>
-<wire x1="203.2" y1="58.42" x2="203.2" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="66.04" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
-<junction x="203.2" y="63.5"/>
+<wire x1="160.02" y1="22.86" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="22.86" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="SUP1" gate="-2" pin="S"/>
+<wire x1="193.04" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DIG_READOUT" class="1">
+<net name="DIG_READOUT" class="0">
 <segment>
 <wire x1="180.34" y1="35.56" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -8299,12 +8292,12 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="160.02" y="35.56"/>
 <wire x1="180.34" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
 <junction x="180.34" y="50.8"/>
-<pinref part="OUT" gate="1" pin="SIGNAL"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SUP1" gate="-1" pin="S"/>
 </segment>
 </net>
-<net name="OUT_2" class="1">
+<net name="OUT_2" class="0">
 <segment>
 <wire x1="129.54" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="38.1" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
@@ -8316,7 +8309,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="IN-_2" class="1">
+<net name="IN-_2" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="35.56" x2="114.3" y2="38.1" width="0.1524" layer="91"/>

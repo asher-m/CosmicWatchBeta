@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8103,6 +8103,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 <class number="0" name="default" width="0.3048" drill="0">
 <clearance class="0" value="0.3048"/>
 </class>
+<class number="1" name="high_freq" width="0.184303125" drill="0">
+<clearance class="0" value="0.508"/>
+<clearance class="1" value="0.508"/>
+</class>
 </classes>
 <parts>
 <part name="MAX4104_1" library="000phys605parts" deviceset="MAX4104" device="" value="Amplifier"/>
@@ -8177,7 +8181,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="AMP" class="0">
+<net name="AMP" class="1">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -8192,7 +8196,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="83.82" y="50.8"/>
 </segment>
 </net>
-<net name="IN-_1" class="0">
+<net name="IN-_1" class="1">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
@@ -8284,7 +8288,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="203.2" y="63.5"/>
 </segment>
 </net>
-<net name="DIG_READOUT" class="0">
+<net name="DIG_READOUT" class="1">
 <segment>
 <wire x1="180.34" y1="35.56" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -8300,7 +8304,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="175.26" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="OUT_2" class="0">
+<net name="OUT_2" class="1">
 <segment>
 <wire x1="129.54" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="38.1" x2="144.78" y2="50.8" width="0.1524" layer="91"/>
@@ -8312,7 +8316,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="IN-_2" class="0">
+<net name="IN-_2" class="1">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="35.56" x2="114.3" y2="38.1" width="0.1524" layer="91"/>
@@ -8360,7 +8364,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IN" class="0">
+<net name="IN" class="1">
 <segment>
 <pinref part="MAX4104_1" gate="G$1" pin="IN+"/>
 <wire x1="58.42" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>

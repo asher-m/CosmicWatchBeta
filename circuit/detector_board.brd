@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -156,15 +156,27 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="40" y2="0" width="0.3048" layer="21"/>
-<wire x1="40" y1="0" x2="40" y2="40" width="0.3048" layer="21"/>
-<wire x1="40" y1="40" x2="0" y2="40" width="0.3048" layer="21"/>
-<wire x1="0" y1="40" x2="0" y2="0" width="0.3048" layer="21"/>
-<rectangle x1="0" y1="0" x2="40" y2="40" layer="39"/>
-<wire x1="42.5" y1="-6" x2="42.5" y2="42.5" width="0.3048" layer="20"/>
-<wire x1="42.5" y1="42.5" x2="-2.5" y2="42.5" width="0.3048" layer="20"/>
-<wire x1="-2.5" y1="42.5" x2="-2.5" y2="-6" width="0.3048" layer="20"/>
-<wire x1="-2.5" y1="-6" x2="42.5" y2="-6" width="0.3048" layer="20"/>
+<wire x1="10" y1="10" x2="50" y2="10" width="0.3048" layer="21"/>
+<wire x1="50" y1="10" x2="50" y2="50" width="0.3048" layer="21"/>
+<wire x1="50" y1="50" x2="10" y2="50" width="0.3048" layer="21"/>
+<wire x1="10" y1="50" x2="10" y2="10" width="0.3048" layer="21"/>
+<wire x1="60" y1="0" x2="60" y2="60" width="0.3048" layer="20"/>
+<wire x1="60" y1="60" x2="0" y2="60" width="0.3048" layer="20"/>
+<wire x1="0" y1="60" x2="0" y2="0" width="0.3048" layer="20"/>
+<wire x1="0" y1="0" x2="60" y2="0" width="0.3048" layer="20"/>
+<hole x="5" y="5" drill="3.7973"/>
+<hole x="15" y="15" drill="3.7973"/>
+<hole x="45" y="15" drill="3.7973"/>
+<hole x="45" y="45" drill="3.7973"/>
+<hole x="15" y="45" drill="3.7973"/>
+<text x="24" y="10.5" size="1.778" layer="25">Scintillator</text>
+<hole x="55" y="5" drill="3.7973"/>
+<hole x="55" y="55" drill="3.7973"/>
+<hole x="5" y="55" drill="3.7973"/>
+<text x="23.5" y="15.5" size="1.778" layer="21" rot="R90">High frequency traces must
+be 7.256mil (0.184mm) wide!</text>
+<hole x="5" y="25" drill="3.7973"/>
+<hole x="55" y="25" drill="3.7973"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2373,31 +2385,35 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <library name="000phys605parts">
 <packages>
 <package name="FC-600XX-SMT">
-<smd name="P_AN" x="0" y="0" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="0" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="5.85" y="0" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="5.85" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<polygon width="0.05" layer="39">
-<vertex x="0" y="1.55"/>
-<vertex x="0" y="4.45"/>
-<vertex x="1.55" y="4.45"/>
-<vertex x="1.55" y="5.85"/>
-<vertex x="4.45" y="5.85"/>
-<vertex x="4.45" y="4.3"/>
-<vertex x="5.85" y="4.3"/>
-<vertex x="5.85" y="1.4"/>
-<vertex x="4.3" y="1.4"/>
-<vertex x="4.3" y="0"/>
-<vertex x="1.4" y="0"/>
-<vertex x="1.4" y="1.55"/>
+<smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<circle x="-5" y="-5" radius="0.6096" width="0" layer="21"/>
+<text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="41">
+<vertex x="-3.5" y="2.4"/>
+<vertex x="-2.15" y="2.4"/>
+<vertex x="-2.15" y="3.5"/>
+<vertex x="2.4" y="3.5"/>
+<vertex x="2.4" y="2.15"/>
+<vertex x="3.5" y="2.15"/>
+<vertex x="3.5" y="-2.4"/>
+<vertex x="2.15" y="-2.4"/>
+<vertex x="2.15" y="-3.5"/>
+<vertex x="-2.4" y="-3.5"/>
+<vertex x="-2.4" y="-2.15"/>
+<vertex x="-3.5" y="-2.15"/>
 </polygon>
-<circle x="-0.15" y="-0.4" radius="0.070709375" width="0" layer="21"/>
-<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="6.925" width="0.127" layer="21"/>
-<wire x1="-1.075" y1="6.925" x2="6.925" y2="6.925" width="0.127" layer="21"/>
-<wire x1="6.925" y1="6.925" x2="6.925" y2="-1.075" width="0.127" layer="21"/>
-<wire x1="6.925" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="21"/>
-<text x="0" y="7.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.5" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.4" y1="4.4" x2="4.4" y2="4.4" width="0.0508" layer="39"/>
+<wire x1="4.4" y1="4.4" x2="4.4" y2="-4.4" width="0.0508" layer="39"/>
+<wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.0508" layer="39"/>
+<wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.0508" layer="39"/>
 </package>
 </packages>
 </library>
@@ -2407,7 +2423,12 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
+<clearance class="0" value="0.3048"/>
+</class>
+<class number="1" name="high_freq" width="0.184303125" drill="0">
+<clearance class="0" value="0.508"/>
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <designrules name="default">
@@ -2591,24 +2612,37 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="36.31" y="21.26" rot="MR90">
-<attribute name="SPICEPREFIX" value="R" x="36.31" y="21.26" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="39.49" y="4.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.97" y="6.615" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="R" x="39.49" y="4.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="32.66" y="23.26" rot="MR90">
-<attribute name="SPICEPREFIX" value="R" x="32.66" y="23.26" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="34.29" y="4.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.75" y="6.615" size="1.27" layer="25" rot="R90"/>
+<attribute name="SPICEPREFIX" value="R" x="34.29" y="4.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="19.96" y="13.59" rot="MR0">
-<attribute name="SPICEPREFIX" value="R" x="19.96" y="13.59" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="18.59" y="6.41" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.375" y="6.94" size="1.27" layer="25" rot="R180"/>
+<attribute name="SPICEPREFIX" value="R" x="18.59" y="6.41" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="rcl" package="C0805" value="10nF" x="30.74" y="18.86" rot="MR0"/>
-<element name="C2" library="rcl" package="C0805" value="10nF" x="28.79" y="23.24" rot="MR270"/>
-<element name="C3" library="rcl" package="C0805" value="10nF" x="24.94" y="23.24" rot="MR270"/>
-<element name="C4" library="rcl" package="C0805" value="10nF" x="20.24" y="24.41" rot="MR0"/>
-<element name="J$1" library="SparkFun-Retired" package="SMA-EDGE" value="SMA_EDGE" x="21.6" y="-3.53" rot="MR0"/>
-<element name="SRC" library="con-garry" library_urn="urn:adsk.eagle:library:147" package="332-02" package3d_urn="urn:adsk.eagle:package:6810/1" value="" x="26" y="-3.5" rot="R90"/>
-<element name="FC-60035" library="000phys605parts" package="FC-600XX-SMT" value="FC-600XXSMT_REFLOW" x="16.7" y="18.1" smashed="yes">
-<attribute name="NAME" x="15.3" y="17.2" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="16.2" y="15.6" size="1.27" layer="27"/>
+<element name="C1" library="rcl" package="C0805" value="10nF" x="36.89" y="4.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.4" y="6.58" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="C2" library="rcl" package="C0805" value="10nF" x="30.79" y="4.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="31.3" y="6.58" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="C3" library="rcl" package="C0805" value="10nF" x="28.19" y="4.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="28.7" y="6.58" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="C4" library="rcl" package="C0805" value="10nF" x="25.59" y="4.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.09" y="6.63" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="J$1" library="SparkFun-Retired" package="SMA-EDGE" value="SMA_EDGE" x="15" y="2.5"/>
+<element name="SRC" library="con-garry" library_urn="urn:adsk.eagle:library:147" package="332-02" package3d_urn="urn:adsk.eagle:package:6810/1" value="" x="43.05" y="4.45" smashed="yes">
+<attribute name="NAME" x="44.39" y="6.27" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="42.43" y="6.99" size="1.27" layer="27"/>
+</element>
+<element name="FC-60035" library="000phys605parts" package="FC-600XX-SMT" value="FC-600XXSMT_REFLOW" x="30" y="30" smashed="yes">
+<attribute name="NAME" x="26.9774" y="34.5212" size="1.27" layer="25"/>
 </element>
 </elements>
 <signals>
@@ -2616,27 +2650,26 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="32.66" y1="22.31" x2="31.69" y2="21.34" width="0.3048" layer="16"/>
-<wire x1="31.69" y1="21.34" x2="31.69" y2="18.86" width="0.3048" layer="16"/>
-<wire x1="32.66" y1="22.31" x2="36.21" y2="22.31" width="0.3048" layer="16"/>
-<wire x1="36.21" y1="22.31" x2="36.31" y2="22.21" width="0.3048" layer="16"/>
+<wire x1="39.49" y1="5.35" x2="36.89" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="36.89" y1="5.35" x2="34.29" y2="5.35" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="VBIAS">
 <contactref element="R2" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="24.94" y1="24.19" x2="28.79" y2="24.19" width="0.3048" layer="16"/>
-<wire x1="28.79" y1="24.19" x2="32.64" y2="24.19" width="0.3048" layer="16"/>
-<wire x1="32.64" y1="24.19" x2="32.66" y2="24.21" width="0.3048" layer="16"/>
-<wire x1="21.19" y1="24.41" x2="24.72" y2="24.41" width="0.3048" layer="16"/>
-<wire x1="24.72" y1="24.41" x2="24.94" y2="24.19" width="0.3048" layer="16"/>
-<via x="22.55" y="26.3" extent="1-16" drill="0.35"/>
-<wire x1="22.55" y1="26.3" x2="21.85" y2="26.3" width="0.3048" layer="16"/>
-<wire x1="21.19" y1="25.64" x2="21.19" y2="24.41" width="0.3048" layer="16"/>
-<wire x1="21.85" y1="26.3" x2="21.19" y2="25.64" width="0.3048" layer="16"/>
+<wire x1="34.29" y1="3.45" x2="34.1" y2="3.45" width="0.3048" layer="1"/>
+<wire x1="34.29" y1="3.45" x2="33.55" y2="3.45" width="0.3048" layer="1"/>
+<wire x1="31.65" y1="5.35" x2="30.79" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="33.55" y1="3.45" x2="31.65" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="30.79" y1="5.35" x2="28.19" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="28.19" y1="5.35" x2="25.59" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="30.79" y1="5.35" x2="30.79" y2="17.79" width="0.3048" layer="1"/>
+<wire x1="30.79" y1="17.79" x2="35.5" y2="22.5" width="0.3048" layer="1"/>
+<wire x1="35.5" y1="22.5" x2="35.5" y2="31.752" width="0.3048" layer="1"/>
 <contactref element="FC-60035" pad="N_CATH"/>
-<wire x1="22.55" y1="23.95" x2="22.55" y2="26.3" width="0.3048" layer="1"/>
+<wire x1="35.5" y1="31.752" x2="34.327" y2="32.925" width="0.305" layer="1"/>
+<wire x1="34.327" y1="32.925" x2="32.925" y2="32.925" width="0.305" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R3" pad="1"/>
@@ -2649,45 +2682,51 @@ design rules under a new name.</description>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="SRC" pad="2"/>
-<polygon width="0.3048" layer="1">
-<vertex x="-1" y="41"/>
-<vertex x="41" y="41"/>
-<vertex x="41" y="-0.5"/>
-<vertex x="36.5" y="-5"/>
-<vertex x="3.5" y="-5"/>
-<vertex x="-1" y="-0.5"/>
+<polygon width="0.184" layer="1">
+<vertex x="0" y="60"/>
+<vertex x="60" y="60"/>
+<vertex x="60" y="0"/>
+<vertex x="0" y="0"/>
 </polygon>
-<polygon width="0.3048" layer="16">
-<vertex x="-1" y="41"/>
-<vertex x="41" y="41"/>
-<vertex x="41" y="-0.5"/>
-<vertex x="36.5" y="-5"/>
-<vertex x="3.5" y="-5"/>
-<vertex x="-1" y="-0.5"/>
+<polygon width="0.184" layer="16">
+<vertex x="0" y="60"/>
+<vertex x="60" y="60"/>
+<vertex x="60" y="0"/>
+<vertex x="0" y="0"/>
 </polygon>
+<contactref element="FC-60035" pad="F_FAST"/>
 </signal>
-<signal name="N$3">
+<signal name="V_AN" class="1">
 <contactref element="R3" pad="2"/>
 <contactref element="J$1" pad="SIG"/>
-<wire x1="19.06" y1="-3.53" x2="19.06" y2="13.54" width="0.3048" layer="16"/>
-<wire x1="19.06" y1="13.54" x2="19.01" y2="13.59" width="0.3048" layer="16"/>
-<via x="16.7" y="15.6" extent="1-16" drill="0.35"/>
-<wire x1="16.7" y1="15.6" x2="18.71" y2="13.59" width="0.3048" layer="16"/>
-<wire x1="18.71" y1="13.59" x2="19.01" y2="13.59" width="0.3048" layer="16"/>
+<wire x1="17.54" y1="6.31" x2="17.54" y2="2.5" width="0.184" layer="1"/>
+<wire x1="17.64" y1="8.14" x2="27.075" y2="17.575" width="0.184" layer="1"/>
+<wire x1="17.64" y1="6.41" x2="17.64" y2="8.14" width="0.184" layer="1"/>
 <contactref element="FC-60035" pad="P_AN"/>
-<wire x1="16.7" y1="15.6" x2="16.7" y2="18.1" width="0.3048" layer="1"/>
+<wire x1="27.075" y1="27.075" x2="27.075" y2="17.575" width="0.184" layer="1"/>
+<wire x1="17.64" y1="6.41" x2="17.54" y2="6.31" width="0.305" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="SRC" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="36.31" y1="20.31" x2="36.31" y2="10.81" width="0.3048" layer="16"/>
-<wire x1="36.31" y1="10.81" x2="27" y2="1.5" width="0.3048" layer="16"/>
-<wire x1="27" y1="1.5" x2="27" y2="-3.5" width="0.3048" layer="16"/>
+<wire x1="39.49" y1="3.45" x2="43.05" y2="3.45" width="0.3048" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,1,5c8bd373d3005cf8"/>
+<approved hash="3,1,08ed9115915408ac"/>
+<approved hash="3,16,08ed9115915408ac"/>
+<approved hash="3,1,73201ad81b2872d0"/>
+<approved hash="3,1,3fcfb9b7b9fb3f83"/>
+<approved hash="3,1,533b2b3dc98580bb"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

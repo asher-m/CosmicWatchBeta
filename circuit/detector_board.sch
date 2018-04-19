@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8067,58 +8067,35 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <library name="000phys605parts">
 <packages>
 <package name="FC-600XX-SMT">
-<smd name="P_AN" x="0" y="0" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="0" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="5.85" y="0" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="5.85" y="5.85" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<polygon width="0.05" layer="39">
-<vertex x="0" y="1.55"/>
-<vertex x="0" y="4.45"/>
-<vertex x="1.55" y="4.45"/>
-<vertex x="1.55" y="5.85"/>
-<vertex x="4.45" y="5.85"/>
-<vertex x="4.45" y="4.3"/>
-<vertex x="5.85" y="4.3"/>
-<vertex x="5.85" y="1.4"/>
-<vertex x="4.3" y="1.4"/>
-<vertex x="4.3" y="0"/>
-<vertex x="1.4" y="0"/>
-<vertex x="1.4" y="1.55"/>
+<smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<circle x="-5" y="-5" radius="0.6096" width="0" layer="21"/>
+<text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<polygon width="0.127" layer="41">
+<vertex x="-3.5" y="2.4"/>
+<vertex x="-2.15" y="2.4"/>
+<vertex x="-2.15" y="3.5"/>
+<vertex x="2.4" y="3.5"/>
+<vertex x="2.4" y="2.15"/>
+<vertex x="3.5" y="2.15"/>
+<vertex x="3.5" y="-2.4"/>
+<vertex x="2.15" y="-2.4"/>
+<vertex x="2.15" y="-3.5"/>
+<vertex x="-2.4" y="-3.5"/>
+<vertex x="-2.4" y="-2.15"/>
+<vertex x="-3.5" y="-2.15"/>
 </polygon>
-<circle x="-0.15" y="-0.4" radius="0.070709375" width="0" layer="21"/>
-<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="6.925" width="0.127" layer="21"/>
-<wire x1="-1.075" y1="6.925" x2="6.925" y2="6.925" width="0.127" layer="21"/>
-<wire x1="6.925" y1="6.925" x2="6.925" y2="-1.075" width="0.127" layer="21"/>
-<wire x1="6.925" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="21"/>
-<text x="0" y="7.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.5" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="FC-600XX-SMT_HAND">
-<smd name="P_AN" x="0" y="-0.45" dx="2" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="-0.45" y="5.85" dx="2" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="6.3" y="0" dx="2" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="5.85" y="6.3" dx="2" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<polygon width="0.05" layer="39">
-<vertex x="0" y="1.55"/>
-<vertex x="0" y="4.45"/>
-<vertex x="1.55" y="4.45"/>
-<vertex x="1.55" y="5.85"/>
-<vertex x="4.45" y="5.85"/>
-<vertex x="4.45" y="4.3"/>
-<vertex x="5.85" y="4.3"/>
-<vertex x="5.85" y="1.4"/>
-<vertex x="4.3" y="1.4"/>
-<vertex x="4.3" y="0"/>
-<vertex x="1.4" y="0"/>
-<vertex x="1.4" y="1.55"/>
-</polygon>
-<circle x="-0.15" y="-1.289" radius="0.070709375" width="0" layer="21"/>
-<wire x1="-1.075" y1="-1.075" x2="-1.075" y2="6.925" width="0.127" layer="21"/>
-<wire x1="-1.075" y1="6.925" x2="6.925" y2="6.925" width="0.127" layer="21"/>
-<wire x1="6.925" y1="6.925" x2="6.925" y2="-1.075" width="0.127" layer="21"/>
-<wire x1="6.925" y1="-1.075" x2="-1.075" y2="-1.075" width="0.127" layer="21"/>
-<text x="-1.27" y="7.1" size="1.27" layer="25">&gt;NAME</text>
-<text x="0.77" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.4" y1="4.4" x2="4.4" y2="4.4" width="0.0508" layer="39"/>
+<wire x1="4.4" y1="4.4" x2="4.4" y2="-4.4" width="0.0508" layer="39"/>
+<wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.0508" layer="39"/>
+<wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.0508" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -8138,29 +8115,18 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <devicesets>
 <deviceset name="FC-600XX">
 <gates>
-<gate name="G$1" symbol="FC-600XX" x="0" y="0"/>
+<gate name="FC-60035" symbol="FC-600XX" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="FC-600XX-SMT">
 <connects>
-<connect gate="G$1" pin="1" pad="P_AN"/>
-<connect gate="G$1" pin="2" pad="F_FAST"/>
-<connect gate="G$1" pin="3" pad="N_CATH"/>
-<connect gate="G$1" pin="4" pad="NC"/>
+<connect gate="FC-60035" pin="1" pad="P_AN"/>
+<connect gate="FC-60035" pin="2" pad="F_FAST"/>
+<connect gate="FC-60035" pin="3" pad="N_CATH"/>
+<connect gate="FC-60035" pin="4" pad="NC"/>
 </connects>
 <technologies>
 <technology name="SMT_REFLOW"/>
-</technologies>
-</device>
-<device name="SMT_HAND" package="FC-600XX-SMT_HAND">
-<connects>
-<connect gate="G$1" pin="1" pad="P_AN"/>
-<connect gate="G$1" pin="2" pad="F_FAST"/>
-<connect gate="G$1" pin="3" pad="N_CATH"/>
-<connect gate="G$1" pin="4" pad="NC"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8173,7 +8139,12 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
+<clearance class="0" value="0.3048"/>
+</class>
+<class number="1" name="high_freq" width="0.184303125" drill="0">
+<clearance class="0" value="0.508"/>
+<clearance class="1" value="0.508"/>
 </class>
 </classes>
 <parts>
@@ -8205,7 +8176,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <instance part="J$1" gate="1" x="5.08" y="-17.78"/>
 <instance part="SRC" gate="-1" x="-48.26" y="-5.08" rot="R180"/>
 <instance part="SRC" gate="-2" x="-5.08" y="-33.02" rot="R180"/>
-<instance part="FC-60035" gate="G$1" x="22.86" y="-5.08" smashed="yes">
+<instance part="FC-60035" gate="FC-60035" x="22.86" y="-5.08" smashed="yes">
 <attribute name="NAME" x="21.082" y="-2.032" size="1.778" layer="95"/>
 </instance>
 </instances>
@@ -8223,7 +8194,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <junction x="-30.48" y="-5.08"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="VBIAS" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="-5.08" x2="-15.24" y2="-5.08" width="0.1524" layer="91"/>
@@ -8242,7 +8213,8 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="0" y1="0" x2="38.1" y2="0" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="0" x2="38.1" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="FC-60035" gate="G$1" pin="3"/>
+<label x="5.08" y="0" size="1.778" layer="95"/>
+<pinref part="FC-60035" gate="FC-60035" pin="3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8287,9 +8259,13 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pinref part="SRC" gate="-2" pin="S"/>
 <wire x1="-2.54" y1="-33.02" x2="0" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="0" y="-33.02"/>
+<wire x1="12.7" y1="-33.02" x2="38.1" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-33.02" x2="38.1" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="FC-60035" gate="FC-60035" pin="2"/>
+<wire x1="38.1" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="V_AN" class="1">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="-20.32" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
@@ -8298,7 +8274,8 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pinref part="J$1" gate="1" pin="SIGNAL"/>
 <wire x1="10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="12.7" y="-17.78"/>
-<pinref part="FC-60035" gate="G$1" pin="1"/>
+<label x="12.7" y="-15.24" size="1.778" layer="95" rot="R90"/>
+<pinref part="FC-60035" gate="FC-60035" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">

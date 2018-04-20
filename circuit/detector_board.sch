@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -7903,7 +7903,7 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -7914,81 +7914,20 @@ Source: AVX .. aphvc.pdf</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Retired">
-<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
-In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMA-EDGE">
-<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
-This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
-<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="SIG" x="2.54" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
-<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SMA_EDGE">
-<wire x1="0" y1="-2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short"/>
-<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
-<pin name="GND@2" x="-2.54" y="-10.16" visible="off" length="short"/>
-<pin name="GND@3" x="-2.54" y="-12.7" visible="off" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SMA_EDGE" prefix="J$">
-<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;
-End launch SMA connector. The paste layer has been removed so that the connector can be hand soldered onto the board after reflow.</description>
-<gates>
-<gate name="1" symbol="SMA_EDGE" x="-2.54" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="SMA-EDGE">
-<connects>
-<connect gate="1" pin="GND@0" pad="GND@0"/>
-<connect gate="1" pin="GND@1" pad="GND@1"/>
-<connect gate="1" pin="GND@2" pad="GND@2"/>
-<connect gate="1" pin="GND@3" pad="GND@3"/>
-<connect gate="1" pin="SIGNAL" pad="SIG"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8097,14 +8036,13 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.0508" layer="39"/>
 <wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.0508" layer="39"/>
 </package>
-<package name="FC-600XX-SMT_BLANK5">
+<package name="FC-600XX-SMT">
 <smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
 <smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
 <smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
 <smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
 <circle x="-4.25" y="-4.25" radius="0.6096" width="0" layer="21"/>
 <text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
@@ -8130,6 +8068,41 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <wire x1="3.65" y1="-3.4" x2="2.2" y2="-3.4" width="0.0508" layer="39"/>
 <wire x1="2.2" y1="-3.4" x2="2.2" y2="-2.45" width="0.0508" layer="39"/>
 </package>
+<package name="SMA-EDGE" urn="urn:adsk.eagle:footprint:6190/1" locally_modified="yes">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="3.85" x2="4.1" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="3.85" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<smd name="G@0" x="2.1154" y="0" dx="4.191" dy="1.778" layer="1"/>
+<smd name="G@1" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@2" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@4" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="16"/>
+<smd name="G@3" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FC-600XX">
@@ -8143,6 +8116,20 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pin name="4" x="-7.62" y="0" length="middle" direction="nc"/>
 <text x="-1.778" y="3.048" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.286" y="-7.366" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BNC-FGND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8162,12 +8149,28 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <technology name="KEEPOUT"/>
 </technologies>
 </device>
-<device name="BLANK" package="FC-600XX-SMT_BLANK5">
+<device name="BLANK" package="FC-600XX-SMT">
 <connects>
 <connect gate="FC-60035" pin="1" pad="P_AN"/>
 <connect gate="FC-60035" pin="2" pad="F_FAST"/>
 <connect gate="FC-60035" pin="3" pad="N_CATH"/>
 <connect gate="FC-60035" pin="4" pad="NC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA-EDGE">
+<gates>
+<gate name="G$1" symbol="BNC-FGND" x="-5.08" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="G@0"/>
+<connect gate="G$1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8199,10 +8202,13 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="10nF"/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0805" value="10nF"/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="10nF"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="J$1" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SRC" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value=""/>
 <part name="FC-600XX-1" library="000phys605parts" deviceset="FC-600XX" device="BLANK"/>
+<part name="OUT" library="000phys605parts" deviceset="SMA-EDGE" device="">
+<attribute name="SPICEPREFIX" value="B"/>
+</part>
+<part name="FAST" library="000phys605parts" deviceset="SMA-EDGE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8211,18 +8217,19 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <instances>
 <instance part="R1" gate="G$1" x="-38.1" y="-5.08"/>
 <instance part="R2" gate="G$1" x="-22.86" y="-5.08"/>
-<instance part="R3" gate="G$1" x="12.7" y="-25.4" rot="R90"/>
+<instance part="R3" gate="G$1" x="12.7" y="-27.94" rot="R90"/>
 <instance part="C1" gate="G$1" x="-30.48" y="-10.16"/>
 <instance part="C2" gate="G$1" x="-15.24" y="-10.16"/>
 <instance part="C3" gate="G$1" x="-7.62" y="-10.16"/>
 <instance part="C4" gate="G$1" x="0" y="-10.16"/>
-<instance part="GND1" gate="1" x="12.7" y="-38.1"/>
-<instance part="J$1" gate="1" x="5.08" y="-17.78"/>
+<instance part="GND1" gate="1" x="12.7" y="-45.72"/>
 <instance part="SRC" gate="-1" x="-48.26" y="-5.08" rot="R180"/>
 <instance part="SRC" gate="-2" x="-5.08" y="-33.02" rot="R180"/>
 <instance part="FC-600XX-1" gate="FC-60035" x="22.86" y="-5.08" smashed="yes">
 <attribute name="NAME" x="21.082" y="-2.032" size="1.778" layer="95"/>
 </instance>
+<instance part="OUT" gate="G$1" x="-48.26" y="-22.86"/>
+<instance part="FAST" gate="G$1" x="48.26" y="-7.62" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -8265,23 +8272,9 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-35.56" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="J$1" gate="1" pin="GND@3"/>
-<wire x1="12.7" y1="-33.02" x2="12.7" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="0" y1="-22.86" x2="0" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="0" y1="-25.4" x2="0" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="0" y1="-27.94" x2="0" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="0" y1="-30.48" x2="2.54" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="J$1" gate="1" pin="GND@2"/>
-<wire x1="2.54" y1="-27.94" x2="0" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="0" y="-27.94"/>
-<pinref part="J$1" gate="1" pin="GND@1"/>
-<wire x1="0" y1="-25.4" x2="2.54" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="0" y="-25.4"/>
-<pinref part="J$1" gate="1" pin="GND@0"/>
-<wire x1="2.54" y1="-22.86" x2="0" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="0" y1="-22.86" x2="0" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="0" y="-22.86"/>
+<wire x1="12.7" y1="-43.18" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="-33.02" x2="0" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="0" y1="-25.4" x2="0" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="0" y1="-17.78" x2="-7.62" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="-7.62" y1="-17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="91"/>
@@ -8296,32 +8289,34 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="0" y1="-15.24" x2="0" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="0" y="-17.78"/>
-<wire x1="0" y1="-30.48" x2="0" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="0" y="-30.48"/>
-<wire x1="0" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="0" y1="-33.02" x2="5.08" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="12.7" y="-33.02"/>
 <pinref part="SRC" gate="-2" pin="S"/>
 <wire x1="-2.54" y1="-33.02" x2="0" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="0" y="-33.02"/>
-<wire x1="15.24" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="-10.16" x2="17.78" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-10.16" x2="17.78" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="FC-600XX-1" gate="FC-60035" pin="4"/>
+<junction x="5.08" y="-33.02"/>
+<wire x1="-45.72" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="0" y="-25.4"/>
+<wire x1="45.72" y1="-10.16" x2="45.72" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-33.02" x2="12.7" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="OUT" gate="G$1" pin="2"/>
+<pinref part="FAST" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="V_AN" class="1">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-22.86" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="J$1" gate="1" pin="SIGNAL"/>
-<wire x1="10.16" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="12.7" y="-17.78"/>
 <label x="12.7" y="-15.24" size="1.778" layer="95" rot="R90"/>
 <pinref part="FC-600XX-1" gate="FC-60035" pin="1"/>
+<wire x1="-45.72" y1="-22.86" x2="12.7" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="12.7" y="-22.86"/>
+<pinref part="OUT" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -8329,6 +8324,13 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <pinref part="SRC" gate="-1" pin="S"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="FC-600XX-1" gate="FC-60035" pin="2"/>
+<wire x1="45.72" y1="-7.62" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="FAST" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

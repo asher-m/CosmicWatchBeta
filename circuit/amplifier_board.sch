@@ -187,6 +187,41 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
+<package name="SMA-EDGE" urn="urn:adsk.eagle:footprint:6190/1" locally_modified="yes">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="3.85" x2="4.1" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="3.85" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<smd name="G@0" x="2.1154" y="0" dx="4.191" dy="1.778" layer="1"/>
+<smd name="G@1" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@2" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@4" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="16"/>
+<smd name="G@3" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MAX4104">
@@ -205,6 +240,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <text x="2.54" y="2.54" size="1.27" layer="95">&gt;Name</text>
 <text x="2.54" y="-17.78" size="1.27" layer="96">&gt;Value</text>
 </symbol>
+<symbol name="BNC-FGND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MAX4104" prefix="MAX" uservalue="yes">
@@ -222,6 +271,22 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <connect gate="G$1" pin="OUT" pad="6"/>
 <connect gate="G$1" pin="VCC" pad="7"/>
 <connect gate="G$1" pin="VEE" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA-EDGE">
+<gates>
+<gate name="G$1" symbol="BNC-FGND" x="-5.08" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="G@0"/>
+<connect gate="G$1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7946,67 +8011,6 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Retired">
-<description>&lt;h3&gt;SparkFun Electronics' Retired foot prints&lt;/h3&gt;
-In this library you'll find all manner of retired footprints for resistors, capacitors, board names, ICs, etc., that are &lt;b&gt; no longer used&lt;/b&gt; in our catalog.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SMA-EDGE">
-<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
-This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
-<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="SIG" x="2.54" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
-<smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
-<smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SMA_EDGE">
-<wire x1="0" y1="-2.54" x2="0" y2="-12.7" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
-<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
-<pin name="GND@0" x="-2.54" y="-5.08" visible="off" length="short"/>
-<pin name="SIGNAL" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
-<pin name="GND@1" x="-2.54" y="-7.62" visible="off" length="short"/>
-<pin name="GND@2" x="-2.54" y="-10.16" visible="off" length="short"/>
-<pin name="GND@3" x="-2.54" y="-12.7" visible="off" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SMA_EDGE" prefix="J$">
-<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;
-End launch SMA connector. The paste layer has been removed so that the connector can be hand soldered onto the board after reflow.</description>
-<gates>
-<gate name="1" symbol="SMA_EDGE" x="-2.54" y="7.62"/>
-</gates>
-<devices>
-<device name="" package="SMA-EDGE">
-<connects>
-<connect gate="1" pin="GND@0" pad="GND@0"/>
-<connect gate="1" pin="GND@1" pad="GND@1"/>
-<connect gate="1" pin="GND@2" pad="GND@2"/>
-<connect gate="1" pin="GND@3" pad="GND@3"/>
-<connect gate="1" pin="SIGNAL" pad="SIG"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -8109,24 +8113,101 @@ Source: Comchip CGRM4001-G.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="MAX4104_1" library="000phys605parts" deviceset="MAX4104" device="" value="Amplifier"/>
+<part name="MAX4104_1" library="000phys605parts" deviceset="MAX4104" device="" value="Opamp">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="1" pinorder="6"/>
+<pinmap gate="G$1" pin="5" pinorder="7"/>
+<pinmap gate="G$1" pin="8" pinorder="8"/>
+<pinmap gate="G$1" pin="IN+" pinorder="1"/>
+<pinmap gate="G$1" pin="IN-" pinorder="2"/>
+<pinmap gate="G$1" pin="OUT" pinorder="5"/>
+<pinmap gate="G$1" pin="VCC" pinorder="3"/>
+<pinmap gate="G$1" pin="VEE" pinorder="4"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="MAX4104"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="10k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="300"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="5pF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
-<part name="SUP" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
-<part name="MAX4104_2" library="000phys605parts" deviceset="MAX4104" device="" value="Peak Detector"/>
+<part name="SUP" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="-1" pin="S" pinorder="1"/>
+<pinmap gate="-2" pin="S" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="VoltageSource"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
+<part name="MAX4104_2" library="000phys605parts" deviceset="MAX4104" device="" value="Opamp">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="1" pinorder="6"/>
+<pinmap gate="G$1" pin="5" pinorder="7"/>
+<pinmap gate="G$1" pin="8" pinorder="8"/>
+<pinmap gate="G$1" pin="IN+" pinorder="1"/>
+<pinmap gate="G$1" pin="IN-" pinorder="2"/>
+<pinmap gate="G$1" pin="OUT" pinorder="5"/>
+<pinmap gate="G$1" pin="VCC" pinorder="3"/>
+<pinmap gate="G$1" pin="VEE" pinorder="4"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="MAX4104"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
+<attribute name="SPICEGROUND" value=""/>
+<attribute name="SPICEPREFIX" value="G"/>
+</part>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/1" value="100k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10nF"/>
-<part name="IN" library="SparkFun-Retired" deviceset="SMA_EDGE" device=""/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND"/>
-<part name="SUP1" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="A" pinorder="1"/>
+<pinmap gate="G$1" pin="C" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="DMBR0540"/>
+<attribute name="SPICEPREFIX" value="D"/>
+</part>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="MBR0540CT-ND">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="G$1" pin="A" pinorder="1"/>
+<pinmap gate="G$1" pin="C" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="DMBR0540"/>
+<attribute name="SPICEPREFIX" value="D"/>
+</part>
+<part name="SUP1" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="no">
+<pinmap gate="-1" pin="S" pinorder="1"/>
+<pinmap gate="-2" pin="S" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEMODEL" value="TerminalOut"/>
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
+<part name="INPUT" library="000phys605parts" deviceset="SMA-EDGE" device="">
+<spice>
+<pinmapping isusermap="yes" isdevicewide="yes">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+<attribute name="SPICEPREFIX" value="V"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8170,7 +8251,6 @@ Source: Comchip CGRM4001-G.pdf</description>
 <attribute name="VALUE" x="112.014" y="36.576" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C6" gate="G$1" x="160.02" y="30.48"/>
-<instance part="IN" gate="1" x="40.64" y="50.8"/>
 <instance part="D1" gate="G$1" x="127" y="38.1" smashed="yes">
 <attribute name="NAME" x="129.54" y="38.5826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.62" y="38.3286" size="1.778" layer="96"/>
@@ -8181,6 +8261,10 @@ Source: Comchip CGRM4001-G.pdf</description>
 </instance>
 <instance part="SUP1" gate="-2" x="198.12" y="43.18" smashed="yes">
 <attribute name="NAME" x="200.66" y="42.418" size="1.524" layer="95"/>
+</instance>
+<instance part="INPUT" gate="G$1" x="43.18" y="50.8">
+<label x="43.18" y="50.8" size="1.778" layer="88" ratio="9"/>
+<label x="43.18" y="50.8" size="1.778" layer="88" ratio="9"/>
 </instance>
 </instances>
 <busses>
@@ -8199,6 +8283,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="83.82" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="40.64" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
 <junction x="83.82" y="50.8"/>
+<label x="73.66" y="38.1" size="1.778" layer="88" ratio="9"/>
+<label x="73.66" y="38.1" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="IN-_1" class="0">
@@ -8216,6 +8302,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="58.42" y1="53.34" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="53.34" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 <junction x="55.88" y="40.64"/>
+<label x="63.5" y="35.56" size="1.778" layer="88" ratio="9"/>
+<label x="63.5" y="35.56" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8262,23 +8350,11 @@ Source: Comchip CGRM4001-G.pdf</description>
 <wire x1="45.72" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="50.8" y="48.26"/>
 <junction x="160.02" y="22.86"/>
-<wire x1="45.72" y1="48.26" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="35.56" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="IN" gate="1" pin="GND@3"/>
-<wire x1="38.1" y1="35.56" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IN" gate="1" pin="GND@2"/>
-<wire x1="38.1" y1="38.1" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<junction x="38.1" y="38.1"/>
-<pinref part="IN" gate="1" pin="GND@1"/>
-<wire x1="38.1" y1="40.64" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<junction x="38.1" y="40.64"/>
-<pinref part="IN" gate="1" pin="GND@0"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<junction x="38.1" y="43.18"/>
 <wire x1="160.02" y1="22.86" x2="193.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="22.86" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUP1" gate="-2" pin="S"/>
 <wire x1="193.04" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="INPUT" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DIG_READOUT" class="0">
@@ -8295,6 +8371,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="SUP1" gate="-1" pin="S"/>
+<label x="180.34" y="43.18" size="1.778" layer="88" ratio="9"/>
+<label x="180.34" y="43.18" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="OUT_2" class="0">
@@ -8307,6 +8385,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="144.78" y="50.8"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="D2" gate="G$1" pin="A"/>
+<label x="137.16" y="38.1" size="1.778" layer="88" ratio="9"/>
+<label x="137.16" y="38.1" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="IN-_2" class="0">
@@ -8324,6 +8404,8 @@ Source: Comchip CGRM4001-G.pdf</description>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <junction x="121.92" y="38.1"/>
+<label x="114.3" y="36.83" size="1.778" layer="88" ratio="9"/>
+<label x="114.3" y="36.83" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -8355,13 +8437,17 @@ Source: Comchip CGRM4001-G.pdf</description>
 <junction x="149.86" y="63.5"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.778" layer="88" ratio="9"/>
+<label x="83.82" y="58.42" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 <net name="IN" class="1">
 <segment>
 <pinref part="MAX4104_1" gate="G$1" pin="IN+"/>
 <wire x1="58.42" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IN" gate="1" pin="SIGNAL"/>
+<pinref part="INPUT" gate="G$1" pin="1"/>
+<label x="52.07" y="50.8" size="1.778" layer="88" ratio="9"/>
+<label x="52.07" y="50.8" size="1.778" layer="88" ratio="9"/>
 </segment>
 </net>
 </nets>

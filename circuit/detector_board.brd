@@ -3,7 +3,7 @@
 <eagle version="9.0.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -177,7 +177,7 @@
 <hole x="55" y="25" drill="3.7973"/>
 <text x="44.5" y="2.5" size="1.778" layer="21">Vbias</text>
 <text x="44.5" y="4.5" size="1.778" layer="21">Gnd</text>
-<text x="43" y="58" size="1.2" layer="21" rot="R180">Rev00_ss, detector board
+<text x="43" y="58" size="1.2" layer="21" rot="R180">Rev00_ds, detector board
 Asher Merrill &amp; Maurik Holtrop, UNH 2018</text>
 </plain>
 <libraries>
@@ -2616,29 +2616,29 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="39.49" y="4.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.97" y="6.615" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEPREFIX" value="R" x="39.49" y="4.4" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="32.6" y="15.01" smashed="yes" rot="MR180">
+<attribute name="NAME" x="34.815" y="15.49" size="1.27" layer="26" rot="MR180"/>
+<attribute name="SPICEPREFIX" value="R" x="32.6" y="15.01" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="34.29" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.75" y="6.615" size="1.27" layer="25" rot="R90"/>
-<attribute name="SPICEPREFIX" value="R" x="34.29" y="4.4" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="32.6" y="20.21" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.815" y="20.67" size="1.27" layer="26" rot="MR180"/>
+<attribute name="SPICEPREFIX" value="R" x="32.6" y="20.21" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="49.9" x="19.59" y="6.41" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.375" y="6.94" size="1.27" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="R" x="19.59" y="6.41" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="rcl" package="C0805" value="10nF" x="36.89" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="37.4" y="6.58" size="1.27" layer="25" rot="R90"/>
+<element name="C1" library="rcl" package="C0805" value="10nF" x="32.6" y="17.61" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.78" y="18.12" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="10nF" x="30.79" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.3" y="6.58" size="1.27" layer="25" rot="R90"/>
+<element name="C2" library="rcl" package="C0805" value="10nF" x="32.6" y="24.29" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.78" y="24.8" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="C3" library="rcl" package="C0805" value="10nF" x="28.19" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.7" y="6.58" size="1.27" layer="25" rot="R90"/>
+<element name="C3" library="rcl" package="C0805" value="10nF" x="32.6" y="27.19" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.78" y="27.7" size="1.27" layer="26" rot="MR180"/>
 </element>
-<element name="C4" library="rcl" package="C0805" value="10nF" x="25.59" y="4.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.09" y="6.63" size="1.27" layer="25" rot="R90"/>
+<element name="C4" library="rcl" package="C0805" value="10nF" x="32.6" y="30.09" smashed="yes" rot="MR0">
+<attribute name="NAME" x="34.83" y="30.59" size="1.27" layer="26" rot="MR180"/>
 </element>
 <element name="J$1" library="SparkFun-Retired" package="SMA-EDGE" value="SMA_EDGE" x="15" y="2.5"/>
 <element name="SRC" library="con-garry" library_urn="urn:adsk.eagle:library:147" package="332-02" package3d_urn="urn:adsk.eagle:package:6810/1" value="" x="43.05" y="4.45" smashed="yes">
@@ -2651,26 +2651,25 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="39.49" y1="5.35" x2="36.89" y2="5.35" width="0.3048" layer="1"/>
-<wire x1="36.89" y1="5.35" x2="34.29" y2="5.35" width="0.3048" layer="1"/>
+<wire x1="33.55" y1="17.61" x2="33.55" y2="20.21" width="0.3048" layer="16"/>
+<wire x1="33.55" y1="17.61" x2="33.55" y2="15.01" width="0.3048" layer="16"/>
 </signal>
 <signal name="VBIAS">
 <contactref element="R2" pad="2"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="34.29" y1="3.45" x2="34.1" y2="3.45" width="0.3048" layer="1"/>
-<wire x1="34.29" y1="3.45" x2="33.55" y2="3.45" width="0.3048" layer="1"/>
-<wire x1="31.65" y1="5.35" x2="30.79" y2="5.35" width="0.3048" layer="1"/>
-<wire x1="33.55" y1="3.45" x2="31.65" y2="5.35" width="0.3048" layer="1"/>
-<wire x1="30.79" y1="5.35" x2="28.19" y2="5.35" width="0.3048" layer="1"/>
-<wire x1="28.19" y1="5.35" x2="25.59" y2="5.35" width="0.3048" layer="1"/>
-<wire x1="30.79" y1="5.35" x2="30.79" y2="17.79" width="0.3048" layer="1"/>
-<wire x1="30.79" y1="17.79" x2="35.5" y2="22.5" width="0.3048" layer="1"/>
-<wire x1="35.5" y1="22.5" x2="35.5" y2="31.752" width="0.3048" layer="1"/>
-<wire x1="34.327" y1="32.925" x2="35.5" y2="31.752" width="0.305" layer="1"/>
 <contactref element="FC-600XX-1" pad="N_CATH"/>
-<wire x1="32.925" y1="32.925" x2="34.327" y2="32.925" width="0.3048" layer="1"/>
+<wire x1="31.65" y1="20.21" x2="31.65" y2="20.65" width="0.3048" layer="16"/>
+<wire x1="33.55" y1="22.55" x2="33.55" y2="24.29" width="0.3048" layer="16"/>
+<wire x1="31.65" y1="20.65" x2="33.55" y2="22.55" width="0.3048" layer="16"/>
+<wire x1="33.55" y1="24.29" x2="33.55" y2="27.19" width="0.3048" layer="16"/>
+<wire x1="33.55" y1="27.19" x2="33.55" y2="30.09" width="0.3048" layer="16"/>
+<via x="36.5" y="31.5" extent="1-16" drill="0.35"/>
+<wire x1="33.55" y1="30.09" x2="35.09" y2="30.09" width="0.3048" layer="16"/>
+<wire x1="35.09" y1="30.09" x2="36.5" y2="31.5" width="0.3048" layer="16"/>
+<wire x1="32.925" y1="32.925" x2="35.075" y2="32.925" width="0.3048" layer="1"/>
+<wire x1="35.075" y1="32.925" x2="36.5" y2="31.5" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="R3" pad="1"/>
@@ -2713,7 +2712,9 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="SRC" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="39.49" y1="3.45" x2="43.05" y2="3.45" width="0.3048" layer="1"/>
+<wire x1="31.65" y1="15.01" x2="31.65" y2="12.35" width="0.3048" layer="16"/>
+<wire x1="40.55" y1="3.45" x2="43.05" y2="3.45" width="0.3048" layer="16"/>
+<wire x1="31.65" y1="12.35" x2="40.55" y2="3.45" width="0.3048" layer="16"/>
 </signal>
 </signals>
 <errors>

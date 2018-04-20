@@ -66,7 +66,7 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
@@ -8262,10 +8262,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <instance part="SUP1" gate="-2" x="198.12" y="43.18" smashed="yes">
 <attribute name="NAME" x="200.66" y="42.418" size="1.524" layer="95"/>
 </instance>
-<instance part="INPUT" gate="G$1" x="43.18" y="50.8">
-<label x="43.18" y="50.8" size="1.778" layer="88" ratio="9"/>
-<label x="43.18" y="50.8" size="1.778" layer="88" ratio="9"/>
-</instance>
+<instance part="INPUT" gate="G$1" x="43.18" y="50.8"/>
 </instances>
 <busses>
 </busses>

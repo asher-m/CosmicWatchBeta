@@ -25,9 +25,9 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
@@ -55,8 +55,8 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -120,9 +120,9 @@
 <layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
 <layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
 <layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -210,45 +210,13 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
 <rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
 </package>
-<package name="FC-600XX-SMT_KEEPOUT">
-<smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
-<smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
-<smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
-<circle x="-5" y="-5" radius="0.6096" width="0" layer="21"/>
-<text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<polygon width="0.127" layer="41">
-<vertex x="-3.5" y="2.4"/>
-<vertex x="-2.15" y="2.4"/>
-<vertex x="-2.15" y="3.5"/>
-<vertex x="2.4" y="3.5"/>
-<vertex x="2.4" y="2.15"/>
-<vertex x="3.5" y="2.15"/>
-<vertex x="3.5" y="-2.4"/>
-<vertex x="2.15" y="-2.4"/>
-<vertex x="2.15" y="-3.5"/>
-<vertex x="-2.4" y="-3.5"/>
-<vertex x="-2.4" y="-2.15"/>
-<vertex x="-3.5" y="-2.15"/>
-</polygon>
-<wire x1="-4.4" y1="4.4" x2="4.4" y2="4.4" width="0.0508" layer="39"/>
-<wire x1="4.4" y1="4.4" x2="4.4" y2="-4.4" width="0.0508" layer="39"/>
-<wire x1="4.4" y1="-4.4" x2="-4.4" y2="-4.4" width="0.0508" layer="39"/>
-<wire x1="-4.4" y1="-4.4" x2="-4.4" y2="4.4" width="0.0508" layer="39"/>
-</package>
-<package name="FC-600XX-SMT_BLANK5">
+<package name="FC-600XX-SMT">
 <smd name="P_AN" x="-2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
 <smd name="NC" x="-2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
 <smd name="F_FAST" x="2.925" y="-2.925" dx="1.1" dy="0.6" layer="1" roundness="20"/>
 <smd name="N_CATH" x="2.925" y="2.925" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
 <circle x="-4.25" y="-4.25" radius="0.6096" width="0" layer="21"/>
 <text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.171" y="-5.7679" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
@@ -273,6 +241,86 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <wire x1="3.65" y1="-2.45" x2="3.65" y2="-3.4" width="0.0508" layer="39"/>
 <wire x1="3.65" y1="-3.4" x2="2.2" y2="-3.4" width="0.0508" layer="39"/>
 <wire x1="2.2" y1="-3.4" x2="2.2" y2="-2.45" width="0.0508" layer="39"/>
+</package>
+<package name="SMA-EDGE" urn="urn:adsk.eagle:footprint:6190/1" locally_modified="yes">
+<description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
+Johnson Components&lt;br&gt;
+Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
+<wire x1="0" y1="5.588" x2="0" y2="-5.588" width="0" layer="20"/>
+<wire x1="-1.55" y1="-4.65" x2="-1.55" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-2" x2="-3.7" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="-2" x2="-4.45" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="-2.75" x2="-8.25" y2="-2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-2.75" x2="-8.25" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="-1.9" x2="-9.425" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="-1.9" x2="-9.425" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-9.425" y1="1.9" x2="-8.25" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="1.9" x2="-8.25" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-8.25" y1="2.75" x2="-4.45" y2="2.75" width="0.2032" layer="21"/>
+<wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="3.85" x2="4.1" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.1" y1="3.85" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
+<wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
+<smd name="G@0" x="2.1154" y="0" dx="4.191" dy="1.778" layer="1"/>
+<smd name="G@1" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@2" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="1"/>
+<smd name="G@4" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="16"/>
+<smd name="G@3" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="16"/>
+<text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
+<rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
+</package>
+<package name="FC-600XX-SMT_FULL">
+<smd name="P_AN" x="-2.9" y="-2.94" dx="1.1" dy="0.6" layer="1" roundness="12" rot="R90"/>
+<smd name="NC" x="-2.9" y="2.91" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="F_FAST" x="2.95" y="-2.94" dx="1.1" dy="0.6" layer="1" roundness="20"/>
+<smd name="N_CATH" x="2.95" y="2.91" dx="1.1" dy="0.6" layer="1" roundness="20" rot="R90"/>
+<circle x="-3.05" y="-3.34" radius="0.070709375" width="0" layer="21"/>
+<circle x="-4.25" y="-4.25" radius="0.6096" width="0" layer="21"/>
+<text x="-3.0226" y="4.5212" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-3.5" y1="3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="3.7" x2="3.7" y2="3.7" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="3.7" x2="3.7" y2="-3.7" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="-3.7" x2="-3.7" y2="-3.7" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-3.7" x2="-3.7" y2="3.7" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="3.4" x2="-2.2" y2="3.4" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="3.4" x2="-2.2" y2="2.45" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="2.45" x2="-3.65" y2="2.45" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="2.45" x2="-3.65" y2="3.4" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="3.65" x2="2.45" y2="3.65" width="0.0508" layer="39"/>
+<wire x1="2.45" y1="3.65" x2="2.45" y2="2.2" width="0.0508" layer="39"/>
+<wire x1="2.45" y1="2.2" x2="3.4" y2="2.2" width="0.0508" layer="39"/>
+<wire x1="3.4" y1="2.2" x2="3.4" y2="3.65" width="0.0508" layer="39"/>
+<wire x1="-2.45" y1="-3.65" x2="-2.45" y2="-2.2" width="0.0508" layer="39"/>
+<wire x1="-2.45" y1="-2.2" x2="-3.4" y2="-2.2" width="0.0508" layer="39"/>
+<wire x1="-3.4" y1="-2.2" x2="-3.4" y2="-3.65" width="0.0508" layer="39"/>
+<wire x1="-3.4" y1="-3.65" x2="-2.45" y2="-3.65" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-2.45" x2="3.65" y2="-2.45" width="0.0508" layer="39"/>
+<wire x1="3.65" y1="-2.45" x2="3.65" y2="-3.4" width="0.0508" layer="39"/>
+<wire x1="3.65" y1="-3.4" x2="2.2" y2="-3.4" width="0.0508" layer="39"/>
+<wire x1="2.2" y1="-3.4" x2="2.2" y2="-2.45" width="0.0508" layer="39"/>
+<wire x1="-2.9" y1="1.51" x2="-2.9" y2="-1.39" width="0.0508" layer="39"/>
+<wire x1="-2.9" y1="-1.39" x2="-1.5" y2="-1.39" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-1.39" x2="-1.5" y2="-2.94" width="0.0508" layer="39"/>
+<wire x1="-1.5" y1="-2.94" x2="1.4" y2="-2.94" width="0.0508" layer="39"/>
+<wire x1="1.4" y1="-2.94" x2="1.4" y2="-1.54" width="0.0508" layer="39"/>
+<wire x1="1.4" y1="-1.54" x2="2.95" y2="-1.54" width="0.0508" layer="39"/>
+<wire x1="2.95" y1="-1.54" x2="2.95" y2="1.36" width="0.0508" layer="39"/>
+<wire x1="2.95" y1="1.36" x2="1.55" y2="1.36" width="0.0508" layer="39"/>
+<wire x1="1.55" y1="1.36" x2="1.55" y2="2.91" width="0.0508" layer="39"/>
+<wire x1="1.55" y1="2.91" x2="-1.35" y2="2.91" width="0.0508" layer="39"/>
+<wire x1="-1.35" y1="2.91" x2="-1.35" y2="1.51" width="0.0508" layer="39"/>
+<wire x1="-1.35" y1="1.51" x2="-2.9" y2="1.51" width="0.0508" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -384,6 +432,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <pin name="4" x="-7.62" y="0" length="middle" direction="nc"/>
 <text x="-1.778" y="3.048" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.286" y="-7.366" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BNC-FGND">
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.508" x2="-2.54" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="0" y2="0.508" width="0.3048" layer="94" curve="-79.611142" cap="flat"/>
+<wire x1="-2.54" y1="-2.54" x2="0" y2="-0.508" width="0.3048" layer="94" curve="79.611142" cap="flat"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -504,7 +566,7 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <gate name="FC-60035" symbol="FC-600XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="FC-600XX-SMT_KEEPOUT">
+<device name="" package="FC-600XX-SMT_FULL">
 <connects>
 <connect gate="FC-60035" pin="1" pad="P_AN"/>
 <connect gate="FC-60035" pin="2" pad="F_FAST"/>
@@ -512,15 +574,20 @@ Source: http://www.analog.com/UploadedFiles/Data_Sheets/703465986AD8611_2_0.pdf<
 <connect gate="FC-60035" pin="4" pad="NC"/>
 </connects>
 <technologies>
-<technology name="KEEPOUT"/>
+<technology name=""/>
 </technologies>
 </device>
-<device name="BLANK" package="FC-600XX-SMT_BLANK5">
+</devices>
+</deviceset>
+<deviceset name="SMA-EDGE">
+<gates>
+<gate name="G$1" symbol="BNC-FGND" x="-5.08" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
 <connects>
-<connect gate="FC-60035" pin="1" pad="P_AN"/>
-<connect gate="FC-60035" pin="2" pad="F_FAST"/>
-<connect gate="FC-60035" pin="3" pad="N_CATH"/>
-<connect gate="FC-60035" pin="4" pad="NC"/>
+<connect gate="G$1" pin="1" pad="G@0"/>
+<connect gate="G$1" pin="2" pad="G@1 G@2 G@3 G@4"/>
 </connects>
 <technologies>
 <technology name=""/>

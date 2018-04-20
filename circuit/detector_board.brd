@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -175,8 +175,10 @@
 <hole x="5" y="55" drill="3.7973"/>
 <hole x="5" y="25" drill="3.7973"/>
 <hole x="55" y="25" drill="3.7973"/>
-<text x="44.5" y="2.8" size="1.778" layer="21">+VBias In</text>
+<text x="44.5" y="2.5" size="1.778" layer="21">Vbias</text>
 <text x="44.5" y="4.5" size="1.778" layer="21">Gnd</text>
+<text x="43" y="58" size="1.2" layer="21" rot="R180">Rev00_ss, detector board
+Asher Merrill &amp; Maurik Holtrop, UNH 2018</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -2698,17 +2700,15 @@ design rules under a new name.</description>
 <signal name="V_AN" class="1">
 <contactref element="R3" pad="2"/>
 <contactref element="J$1" pad="SIG"/>
-<wire x1="25.997071875" y1="16.497071875" x2="26" y2="16.504140625" width="3.021" layer="1" curve="44.982095"/>
 <contactref element="FC-600XX-1" pad="P_AN"/>
 <wire x1="26.5" y1="26.5" x2="27.075" y2="27.075" width="0.3048" layer="1"/>
-<wire x1="26" y1="26" x2="26.5" y2="26.5" width="3.021" layer="1"/>
+<wire x1="26.5" y1="26.5" x2="26" y2="26" width="3.021" layer="1"/>
 <wire x1="17.54" y1="2.5" x2="17.54" y2="7" width="3.021" layer="1"/>
 <wire x1="17.54" y1="7" x2="17.54" y2="8.96" width="3.021" layer="1"/>
-<wire x1="17.54" y1="8.96" x2="26" y2="17.42" width="3.021" layer="1"/>
-<wire x1="26" y1="17.42" x2="26" y2="26" width="3.021" layer="1"/>
+<wire x1="26" y1="17.42" x2="17.54" y2="8.96" width="3.021" layer="1"/>
 <wire x1="18.64" y1="6.41" x2="18.05" y2="7" width="0.3048" layer="1"/>
 <wire x1="18.05" y1="7" x2="17.54" y2="7" width="0.3048" layer="1"/>
-<wire x1="26" y1="17.42" x2="26" y2="16.504140625" width="0" layer="19" extent="1-1"/>
+<wire x1="26" y1="26" x2="26" y2="17.42" width="3.021" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="SRC" pad="1"/>
@@ -2719,10 +2719,25 @@ design rules under a new name.</description>
 <errors>
 <approved hash="3,1,08ed9115915408ac"/>
 <approved hash="3,16,08ed9115915408ac"/>
+<approved hash="5,1,816faec657a88bbe"/>
+<approved hash="5,1,24585279ff42ab36"/>
+<approved hash="4,1,0751ee834a0ec82d"/>
+<approved hash="4,1,d94e62962318a933"/>
+<approved hash="4,1,536852a2e41dc214"/>
+<approved hash="4,1,d3cb9681411c5db5"/>
+<approved hash="4,16,0751ee834a0ec82d"/>
+<approved hash="4,16,536852a2e41dc214"/>
+<approved hash="3,1,d5270606c135b2b4"/>
+<approved hash="3,1,4cef0105062c54fd"/>
+<approved hash="3,1,57e8040e07975471"/>
 </errors>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

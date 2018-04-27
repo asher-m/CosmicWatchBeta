@@ -173,6 +173,24 @@
 <text x="39.75" y="6.55" size="1.778" layer="21">Gnd</text>
 <text x="12.5" y="55" size="1.2" layer="21">Rev02, detector board
 Asher Merrill &amp; Maurik Holtrop, UNH 2018</text>
+<polygon width="0.1524" layer="41">
+<vertex x="26.5" y="29"/>
+<vertex x="28.5" y="29"/>
+<vertex x="28.5" y="28"/>
+<vertex x="28.65" y="27.85"/>
+<vertex x="28.65" y="26.3"/>
+<vertex x="32" y="26.3"/>
+<vertex x="32" y="27.5"/>
+<vertex x="32.25" y="27.75"/>
+<vertex x="33.5" y="27.75"/>
+<vertex x="33.5" y="32.2"/>
+<vertex x="32.35" y="32.2"/>
+<vertex x="32.35" y="33.5"/>
+<vertex x="28.7" y="33.5"/>
+<vertex x="28.7" y="32.05"/>
+<vertex x="28" y="31.35"/>
+<vertex x="26.5" y="31.35"/>
+</polygon>
 </plain>
 <libraries>
 <library name="000phys605parts">

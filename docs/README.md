@@ -14,3 +14,7 @@ Manual and specifications for Micro_C devices from SensL.  Use for specification
 http://www.mantaro.com/resources/impedance-calculator.htm
 ---------------------------------------------------------
 Tool for calculating the impendance of traces/PCB features.  Used to calculate width of traces and impendance match traces for SMA connector/coax.
+
+http://www.analog.com/media/en/technical-documentation/application-notes/an148fa.pdf
+------------------------------------------------------------------------------------
+Paper/manual detailing how to inhibit oscillations in an opamp, as we're now experiencing.  Some hints: C_parasitic * R_gnd == C_f * R_f in the feedback loop to curtail oscillations.  Reducing R_f and R_gnd can also decrease the likelihood of oscillations.
